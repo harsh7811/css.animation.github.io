@@ -1,0 +1,57 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: child;
+  animation-duration: 4s;
+  text-align: center;
+  color: white;
+  animation-iteration-count: infinite;
+}
+
+
+/* @keyframes child {
+    from {background-color: red;}
+
+    to {background-color: yellow;}
+  } */
+
+
+@keyframes child {
+  0% {
+    background-color: red;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  25% {
+    background-color: blue;
+    margin-left: 30rem;
+    margin-top: 0px;
+    border-radius: 50px;
+  }
+
+  50% {
+    background-color: red;
+    margin-left: 30rem;
+    margin-top: 30rem;
+  }
+
+  75% {
+    background-color: blue;
+    margin-left: 0px;
+    margin-top: 30rem;
+    border-radius: 50px;
+  }
+
+  100% {
+    background-color: red;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
